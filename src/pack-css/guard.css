@@ -1,0 +1,85 @@
+/*守护区*/
+.guard-area{width:340px;height:260px; background: url("/skin/comic/images/guardBg.png");  background-size:cover;   position: absolute;top:60px; left: 205px;  border-radius: 3px; }
+.guard-area .lt,.visitant-record .lt,.rank-area .lt,.gift-record .lt,.chat-area .lt{position: absolute; width:18px; height:17px; z-index: 89; left: 0; top: 0; background:url("/skin/comic/images/lt.png") no-repeat; }
+.guard-area .rt,.visitant-record .rt,.rank-area .rt,.gift-record .rt,.chat-area .rt{position: absolute; width:18px; height:17px; z-index: 89; right: 0; top: 0; background:url("/skin/comic/images/rt.png") no-repeat; }
+.guard-area .lb,.visitant-record .lb,.rank-area .lb,.gift-record .lb,.bCorner .lb,.chs2 .lb{position: absolute; width:18px; height:17px; z-index: 89; left: 0; bottom: 0; background:url("/skin/comic/images/lb.png") no-repeat; }
+.guard-area .rb,.visitant-record .rb,.rank-area .rb,.gift-record .rb,.bCorner .rb,.chs2 .rb{position: absolute; width:18px; height:17px; z-index: 89; right: 0; bottom: 0; background:url("/skin/comic/images/rb.png") no-repeat; }
+
+.guard-header{height: 40px;width: 100%;  overflow: hidden;cursor: move}
+.guard-header span{float: left;margin-top: 12px;}
+.guard-header .guard-title{margin-left: 12px;width:69px;height: 20px; background:url("/skin/comic/images/guardTit.png"); margin-right:4px; }
+.guard-header .gdnum{color: #A7AFC2;font-size: 12px; margin-top:16px; }
+.guard-header .kais{float: right;margin-right: 12px;font-size: 12px;  height: 28px; padding: 0 8px; background:url("/skin/comic/images/kais.png"); width: 81px; }
+.guard-main{width:340px;margin-top: 10px;height:212px}
+.guard-main ul li{margin-left:24px;float: left;  width: 70px;  height: 106px;}
+.guardYou{float: left}
+.guardYou .gback{width:56px;height: 78px;  position: relative;}
+.guardYou .gback .img1{    width: 70px;  height: 84;position: absolute;z-index: 103}
+.guardYou .gback .img3{    width: 53px; height: 56px; position: absolute;  z-index: 102; color: #FF675E;text-align: center; padding-top: 7px; left: 10px; background-color: rgba(39, 34, 34, 0.64); top: 15px; font-size: 12px; border-radius: 20px; display: none;}
+.guardYou .gback .img2{width: 52px;height: 52px; position: absolute;  z-index: 101;top: 14px;left: 9px; border-radius: 26px;}
+.guardYou .gname{ font-size: 12px;margin-bottom: 7px;text-overflow: ellipsis;  white-space: nowrap;  overflow: hidden;text-align: center;  width: 70px;margin-top:5px;cursor: pointer;}
+.guardYou .gname a{color:#ffc937;}
+.guardYou .gname a:hover{color:#ffffff;}
+.no-circle{border-radius:70px;width:70px;height:80px;background: url("/skin/desert/images/pic_guardlevel_kong.png") no-repeat;  cursor: pointer;}
+
+@media only screen and (min-width:1920px) and (min-height:806px) {
+
+    .guard-area{
+        left: 78px;
+    }
+}
+@media only screen and (min-width:4096px){
+    .chat-area{left: 4338px;}    .newGifts{left: 3534px; bottom:3000px;}
+    .guard-area{left:3000px; }
+}
+@media only screen and (max-width:1919px){
+
+    .guard-area{
+        width:260px;
+        height:200px;
+        left:78px;
+        overflow:hidden;
+    }
+}
+
+@media only screen and (max-width:1284px) {
+    .guard-area {
+        width: 220px;
+        height:198px; top:40px;
+    }
+    .guard-area{
+        top:40px;
+    }
+}
+
+
+/*开通守护*/
+.start-watch{position:absolute;left:0;top:90px;bottom:0;right:0;margin:0 auto;width:402px;height: 470px;padding:5px;display: none;z-index: 121}
+.istart-watch{width: 100%;height: 100%;background:url("/skin/comic/images/pic_bg.png") no-repeat;  overflow: hidden; color: #4a3824; }
+.sf-cenCon{margin-top: 20%; }
+.sf-title,.sf-img{color: #ECEAE7;font-size: 18px; }
+.sf-img{width: 33%; text-align: center; margin-top: 10%; }
+.sf-cenConR{width: 67%; }
+.sf-title{margin-top:18px;}
+.sf-descript{margin:12px 12px 12px 0px;}
+.sf-line-s{background:url("/skin/comic/images/pic_line_s.png") no-repeat; width: 238px; height: 2px;}
+.sf-ms-title{font-size:16px; color: #ECEAE7;margin-bottom: 12px; height: 19px; }
+.sf-ms-title.titMonth{background:url("/skin/comic/images/pic_yuefei.png") no-repeat; width: 86px; }
+.sf-ms-title.titYear{background:url("/skin/comic/images/pic_kaitong.png") no-repeat; width: 72px; }
+.sf-ms-content{font-size: 12px;color: #5e492f; }
+.sf-ms-content a{display: inline-block;margin-left: 18px; color: #742502; }
+.sf-ms-content a:hover{color: #a56f43; }
+.sf-line-b{height: 1px;background:  #161A1C; background:url("/skin/comic/images/pic_line.png") no-repeat; margin:10px 35px 12px 38px;}
+.sf-buy-area{padding-left:10%;position: relative}
+.sf-buy-style{font-size: 16px;color: #ECEAE7; background:url("/skin/comic/images/pic_goumai.png") no-repeat; width: 114px; height: 31px; }
+.sf-buy-time{font-size: 12px;margin:5% 0;}
+.sf-buy-time .sftext{display: inline-block;padding:0 25px 0 5px;border-radius:3px; margin:0 5px;background-image:url("/skin/comic/images/pic_import.png"); background-position: 88% center;background-repeat: no-repeat;line-height: 22px; background-size: 100%; }
+.sftext:hover {background-image:url("/skin/comic/images/pic_import_down.png") no-repeat;}
+.sf-buy-time .sfpeice{margin-left:10px;display:inline-block;color:#742502; }
+.watchButton{width:35%; height:41px; margin-top: 32px; margin: 0 auto;cursor: pointer; background:url("/skin/comic/images/icon_goumai_bt.png") no-repeat;  }
+.watchButton:hover{background:url("/skin/comic/images/icon_goumai_bt_down.png") no-repeat;  }
+.sf-times{display:none;width:60%; border: 1px solid #330700; padding:1.8% 2.5%; background-color:#444141; overflow: hidden; position:absolute;left: 23%;top:56%;}
+.sf-times ul li{float: left;line-height: 24px;width: 10%; height: 10%;cursor: pointer;color:#ECEAE7;text-align: center;}
+.sf-times ul li:hover{background:#292727; }
+.clz{position: absolute;right: -2%;top:-2%;width:13%;height:12%;background: url("/skin/comic/images/pic_close.png")no-repeat;cursor: pointer;}
+.clz:hover{background: url("/skin/comic/images/pic_close_down.png") no-repeat;}

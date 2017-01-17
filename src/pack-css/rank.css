@@ -1,0 +1,45 @@
+
+.rank-area{height: 200px; background:url("/skin/comic/images/rankBg.png"); background-size:cover; left: 205px;top:350px;}
+.rk-header{overflow: hidden;cursor: move}
+.rk-header >div{float: left;color:  #f2f2f2; width: 112px; height: 42px; text-align: center; cursor: pointer; }
+.rk-header .r-current.nosel {background:url("/skin/comic/images/r_cur_nos.png") no-repeat top center; margin-top: 4px;}
+.rk-header .r-current{background:url("/skin/comic/images/r_cur.png") no-repeat top center;  margin-top: 4px;}
+.rk-header .r-week.nosel {background:url("/skin/comic/images/r_week_nos.png") no-repeat top center; margin-top: 4px;}
+.rk-header .r-week{background:url("/skin/comic/images/r_week.png") no-repeat top center; margin-top: 4px; }
+.rk-header .r-active.nosel {background:url("/skin/comic/images/r_act_nos.png") no-repeat top center; margin-top: 4px; }
+.rk-header .r-active{background:url("/skin/comic/images/r_act.png") no-repeat top center; margin-top: 4px; }
+.r-week{margin: 0 1px;}
+.rk-contents .nano{height:146px; }
+.rk-conn ul li{height:45px; padding-left: 15px;margin-bottom: 4px;}
+.rk-conn ul li >div{float: left;color: #f2f8fa}
+.rkb-xu1{background-position:  -155px -48px;}
+.rkb-xu2{background-position: -153px -92px;}
+.rkb-xu3{background-position: -153px -138px}
+.rkb-img img{ display: block;  width: 45px;  height: 45px; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%;}
+.rkb-con{line-height: 23px;margin-left: 10px;}
+.rkb-p1{color:#ffc937}
+
+@media only screen and (min-width:1920px) and (min-height:806px){
+    .rank-area{
+        top:340px;
+        left:78px;
+    }
+}
+@media only screen and (min-width:4096px){
+    .rank-area{left:3000px; }
+}
+@media only screen and (max-width:1919px){
+    .rank-area{
+        width:260px;
+        height:200px;
+        left:78px;
+        overflow:hidden;
+        top:268px;
+    }
+}
+@media only screen and (min-width:1920px) and (min-height:806px){
+    .rank-area {
+        top: 340px;
+        left: 78px;
+    }
+}
